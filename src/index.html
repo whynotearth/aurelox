@@ -1,0 +1,98 @@
+<!--
+
+=========================================================
+* Neumorphism UI - v1.0.0
+=========================================================
+
+* Product Page: https://themesberg.com/product/ui-kits/neumorphism-ui
+* Copyright 2020 Themesberg MIT LICENSE (https://www.themesberg.com/licensing#mit)
+
+* Coded by https://themesberg.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    @@include('./_head.html', {
+        "path": ".",
+        "title": "Neumorphism UI"
+    })
+</head>
+
+<body>
+    <main>
+
+        <!-- Hero -->
+        <section class="section section bg-soft pb-5 overflow-hidden z-2">
+            <div class="container z-2">
+                <div class="row justify-content-center text-center pt-6">
+                    <div class="col-lg-8 col-xl-8">
+                        <h1 class="display-1 mb-3">PCL Labs / Aurelox</h1>
+                        <p class="lead px-md-6 mb-5">Top Rated <strong>UPWORK </strong>Agency
+                            <br> 
+                            Marketing, web apps and data.
+                        </p>
+                        <div class="d-flex flex-column flex-wrap flex-md-row justify-content-md-center mb-5">
+                            <a href="https://www.upwork.com/ag/pcllabs/" target="_blank" class="btn btn-primary mb-3 mb-lg-0 mr-3"><i class="fas fa-comments mr-2"></i> Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-lg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <!-- Icon box -->
+                        <div class="icon-box text-center mb-5 mb-md-0">
+                            <div class="icon icon-shape icon-lg bg-soft shadow-soft border border-light rounded-circle mb-3">
+                                <span class="fas fa-box-open"></span>
+                            </div>
+                            <h2 class="h5 my-3">Over 200 components</h2>
+                            <p class="px-lg-4">Beatifully crafted and neumorphism inspired elements</p>
+                        </div>
+                        <!-- End of Icon box -->
+                    </div>
+                    <div class="col-12 col-md-4 mb-5 mb-md-0">
+                        <!-- Icon box -->
+                        <div class="icon-box text-center">
+                            <div class="icon icon-shape icon-lg bg-soft shadow-soft border border-light rounded-circle mb-3">
+                                <span class="fas fa-pager"></span>
+                            </div>
+                            <h2 class="h5 my-3">10+ sections</h2>
+                            <p class="px-lg-4">Navigation bars, pricing cards, footers and many more sections to enhance page variety</p>
+                        </div>
+                        <!-- End of Icon box -->
+                    </div>
+                    <div class="col-12 col-md-4 mb-5 mb-md-0">
+                        <!-- Icon box -->
+                        <div class="icon-box text-center">
+                            <div class="icon icon-shape icon-lg bg-soft shadow-soft border border-light rounded-circle mb-3">
+                                <span class="far fa-file-alt"></span>
+                            </div>
+                            <h2 class="h5 my-3">5 example pages</h2>
+                            <p class="px-lg-4">We took the time to create a few example pages to show you how neumorphic pages can look like</p>
+                        </div>
+                        <!-- End of Icon box -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        @@include('./components/_cards.html', {
+            "path": ".",
+            "classes": "bg-primary pt-0"
+        })
+    </main>
+
+    @@include('./_footer.html', {
+        "path": ".",
+        "classes": "bg-primary"
+    })
+</body>
+
+</html>
